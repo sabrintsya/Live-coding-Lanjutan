@@ -1,9 +1,20 @@
+const kalimat = "hello";
+const kalimat2 = "aabbbcc";
+
+console.log("Jumlah karakter:")
+
+
 function hitungKarakter (str) {
     const totalKarakter = str.length;
 
     const InputKarakter = {};
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
+    for (let i = 0; i < str.length; i++) {
+        const karakter = str[i];
+        inputKarakter[karakter] = (inputKarakter[karakter] || 0) + 1;
     }
+
+    return {
+        totalKarakter,
+        inputKarakter
+    };
 }
