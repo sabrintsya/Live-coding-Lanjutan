@@ -1,7 +1,8 @@
 const kalimat = "hello";
 const kalimat2 = "aabbbcc";
 
-console.log("Jumlah karakter:")
+console.log("Jumlah karakter:", hasil.totalKarakter);
+console.log("input Karakter:", hasil.inputKarakter);
 
 
 function hitungKarakter (str) {
